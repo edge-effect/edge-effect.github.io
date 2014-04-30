@@ -31,9 +31,13 @@
         line-height: 25px;
       }
       
+        /* override bootstrap width for definition list */
       @media (min-width: 768px) {
+        .dl-horizontal dd {
+          margin-left: 250px;
+        }
         .dl-horizontal dt {
-          width: 230px !important;  /* override bootstrap width */
+          width: 230px;
         }
       }
     </style>
